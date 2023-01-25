@@ -42,7 +42,9 @@ def seconds_transformation(sec):
 secs = seconds_transformation(7000) #this way creates a array
 hour, min, sec = seconds_transformation(7000) #this way creates three separate variables for each value
 print(str(secs) + " <-- this is a array")
-print(str(hour, min, sec) + " <-- these are three variables") 
+print(str(hour) + " hour " + str(min) + " minutes " + str(sec) + " seconds " + " <-- these are three variables") 
+##############################################
+
 
 
 
