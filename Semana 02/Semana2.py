@@ -45,6 +45,29 @@ print(str(secs) + " <-- this is a array")
 print(str(hour) + " hour " + str(min) + " minutes " + str(sec) + " seconds " + " <-- these are three variables") 
 ##############################################
 
+#Comparison things
+print(5 > 1) #bigger than
+print(5 < 1) #smaller than
+print(5 >= 1) #bigger or equal
+print(5 <= 1) #smaller or equal
+print(5 == 5) #equal
+print(5 != 1) #not equal, inverts the comparison
+ 
+#Comparison operators
+#and = operator both must be true
+#or = operator atleast once must be true
+#not = Invert the comparison
 
+#Conditional operators
+def comparison_number(a,b):
+    if a > b:
+        print(str(a) + " is greater than " + str(b)) #Take care of identation of the condition
+    elif a < b:
+        print(str(a) + " is less than " + str(b))
+    elif a == b:
+        print(str(a) + " is equal to " + str(b))      
+    else:
+        print("The input is not a number")      
+ 
 
-
+comparison_number(4,2) 
