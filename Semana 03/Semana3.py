@@ -40,5 +40,14 @@ print(sum_divisors(102)) # Should be sum of 2+3+6+17+34+51
 
 #----------------------------------------------------------------
 
-# For loops
+# For loops is used when we have a sequence of elements
+for x in range(5): # Loop
+    print(x)    #The variable x starts from 0 and ends in 4, because the loop never includes the last element
+    #also the fuctions range have 3 parameters (initial value, final value, increment)
+    #range (1,11,2) It will go from 1 to 10 by step 2.
+
+
+friends = ['marcos', 'fernando', 'diego', 'joao']  #This is a array of friends
+for friend in friends:
+  print(friend + " is his name")
 
