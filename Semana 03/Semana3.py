@@ -1,6 +1,6 @@
 # In this week we gonna learn about loops!
 
-# While loops
+# ________________________________While loops
 # we need a starter variable to work as control
 # A expression to compare if the look will be started or not
 # Then a expression to increase or decrease our variable
@@ -38,7 +38,7 @@ print(sum_divisors(36)) # Should sum of 1+2+3+4+6+9+12+18
 print(sum_divisors(102)) # Should be sum of 2+3+6+17+34+51
 # 114
 
-#----------------------------------------------------------------
+#------------------------------------For loops------
 
 # For loops is used when we have a sequence of elements
 for x in range(5): # Loop
@@ -51,3 +51,29 @@ friends = ['marcos', 'fernando', 'diego', 'joao']  #This is a array of friends
 for friend in friends:
   print(friend + " is his name")
 
+print()
+
+#----------------------------------------------------------------
+# Nested Loops are about loops inside other loop
+# Exemple: Each team must play once with each others, divided by away and home.
+
+Brazil_teams = ['Vasco', 'Sao Paulo', 'Curitiba', 'Gremio']
+print("away_teams " + " home_teams")
+for away_teams in Brazil_teams:
+  for home_teams in Brazil_teams:
+    if away_teams != home_teams:
+      print(away_teams + " vs " + home_teams)
+
+print()
+
+
+
+
+#---------------------------- Recursion ------------------
+
+def factorial(n):
+  if n < 2:
+    return 1
+  return n * factorial(n-1)
+
+print(factorial(5))
