@@ -1,9 +1,17 @@
-def sum_positive_numbers(n):
-  if n == 1:
-    return 1
-  return n + sum_positive_numbers(n-1)
+#-------------------------------------------------------------
+text1 = "its a text"
+text2 = 'ts another text'
 
+# we can also do operations with strings
+text = "Bono "
+print(text * 3)
 
-print(sum_positive_numbers(5)) # Should be 15
+# Len is used to return the length of the string
+print(len(text))
 
+# some examples of indexing if a string is
+print(text[0])
+print(text[-2])
+print(text[2:4])
 
+index and in and imutable strings
